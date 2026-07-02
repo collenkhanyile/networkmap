@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "internet",
+      "label": "Internet",
+      "icon": "cloud",
+      "status": "up"
+    },
+    {
+      "id": "firewall",
+      "label": "Fortigate",
+      "icon": "firewall",
+      "status": "up"
+    },
+    {
+      "id": "core01",
+      "label": "Nexus Core",
+      "icon": "switch",
+      "status": "up"
+    },
+    {
+      "id": "access01",
+      "label": "Access Switch 1",
+      "icon": "switch",
+      "status": "up"
+    },
+    {
+      "id": "access02",
+      "label": "Access Switch 2",
+      "icon": "switch",
+      "status": "warning"
+    },
+    {
+      "id": "server01",
+      "label": "Web Server",
+      "icon": "server",
+      "status": "up"
+    }
+  ]
+}
