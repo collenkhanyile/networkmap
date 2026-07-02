@@ -1,4 +1,5 @@
-[
+{
+"nodes": [
   {
     "id": "1",
     "source": "internet",
@@ -35,3 +36,4 @@
     "secondaryStat": "0.4 ms"
   }
 ]
+}
