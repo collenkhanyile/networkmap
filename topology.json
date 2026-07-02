@@ -36,5 +36,33 @@
       "icon": "server",
       "status": "up"
     }
+  ],
+
+  "edges": [
+    {
+      "id": "1",
+      "source": "internet",
+      "target": "firewall"
+    },
+    {
+      "id": "2",
+      "source": "firewall",
+      "target": "core01"
+    },
+    {
+      "id": "3",
+      "source": "core01",
+      "target": "access01"
+    },
+    {
+      "id": "4",
+      "source": "core01",
+      "target": "access02"
+    },
+    {
+      "id": "5",
+      "source": "core01",
+      "target": "server01"
+    }
   ]
 }
