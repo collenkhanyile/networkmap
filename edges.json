@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "source": "internet",
+    "target": "fw01",
+    "mainStat": "1 Gbps",
+    "secondaryStat": "2 ms"
+  },
+  {
+    "id": "2",
+    "source": "fw01",
+    "target": "core01",
+    "mainStat": "10 Gbps",
+    "secondaryStat": "0.2 ms"
+  },
+  {
+    "id": "3",
+    "source": "core01",
+    "target": "dist01",
+    "mainStat": "10 Gbps",
+    "secondaryStat": "0.1 ms"
+  },
+  {
+    "id": "4",
+    "source": "core01",
+    "target": "dist02",
+    "mainStat": "10 Gbps",
+    "secondaryStat": "0.2 ms"
+  },
+  {
+    "id": "5",
+    "source": "dist02",
+    "target": "server01",
+    "mainStat": "1 Gbps",
+    "secondaryStat": "0.4 ms"
+  }
+]

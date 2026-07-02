@@ -1,0 +1,56 @@
+[
+  {
+    "id": "internet",
+    "title": "Internet",
+    "subtitle": "Cloud",
+    "mainStat": "UP",
+    "secondaryStat": "0 ms",
+    "arc__up": 1,
+    "color": "green"
+  },
+  {
+    "id": "fw01",
+    "title": "Fortigate",
+    "subtitle": "10.0.0.254",
+    "mainStat": "UP",
+    "secondaryStat": "CPU 12%",
+    "arc__up": 1,
+    "color": "green"
+  },
+  {
+    "id": "core01",
+    "title": "Cisco Nexus Core",
+    "subtitle": "10.0.0.10",
+    "mainStat": "UP",
+    "secondaryStat": "CPU 25%",
+    "arc__up": 1,
+    "color": "green"
+  },
+  {
+    "id": "dist01",
+    "title": "Distribution Switch 1",
+    "subtitle": "10.0.1.1",
+    "mainStat": "UP",
+    "secondaryStat": "CPU 18%",
+    "arc__up": 1,
+    "color": "green"
+  },
+  {
+    "id": "dist02",
+    "title": "Distribution Switch 2",
+    "subtitle": "10.0.2.1",
+    "mainStat": "WARNING",
+    "secondaryStat": "CPU 85%",
+    "arc__warning": 1,
+    "color": "orange"
+  },
+  {
+    "id": "server01",
+    "title": "Application Server",
+    "subtitle": "10.0.10.5",
+    "mainStat": "UP",
+    "secondaryStat": "CPU 8%",
+    "arc__up": 1,
+    "color": "green"
+  }
+]
