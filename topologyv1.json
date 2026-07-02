@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "id": "internet",
+      "label": "Internet",
+      "icon": "cloud",
+      "status": "up",
+      "color": "#00C853"
+    },
+    {
+      "id": "fw01",
+      "label": "Fortigate Firewall",
+      "icon": "firewall",
+      "status": "up",
+      "color": "#00C853"
+    },
+    {
+      "id": "core01",
+      "label": "Cisco Nexus Core",
+      "icon": "switch",
+      "status": "up",
+      "color": "#00C853"
+    },
+    {
+      "id": "acc01",
+      "label": "Access Switch 1",
+      "icon": "switch",
+      "status": "up",
+      "color": "#00C853"
+    },
+    {
+      "id": "acc02",
+      "label": "Access Switch 2",
+      "icon": "switch",
+      "status": "warning",
+      "color": "#FFC107"
+    },
+    {
+      "id": "srv01",
+      "label": "Web Server",
+      "icon": "server",
+      "status": "up",
+      "color": "#00C853"
+    },
+    {
+      "id": "nas01",
+      "label": "NAS Storage",
+      "icon": "storage",
+      "status": "up",
+      "color": "#00C853"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source": "internet",
+      "target": "fw01",
+      "label": "1 Gbps",
+      "status": "up"
+    },
+    {
+      "id": "e2",
+      "source": "fw01",
+      "target": "core01",
+      "label": "10 Gbps",
+      "status": "up"
+    },
+    {
+      "id": "e3",
+      "source": "core01",
+      "target": "acc01",
+      "label": "10 Gbps",
+      "status": "up"
+    },
+    {
+      "id": "e4",
+      "source": "core01",
+      "target": "acc02",
+      "label": "10 Gbps",
+      "status": "warning"
+    },
+    {
+      "id": "e5",
+      "source": "core01",
+      "target": "srv01",
+      "label": "10 Gbps",
+      "status": "up"
+    },
+    {
+      "id": "e6",
+      "source": "core01",
+      "target": "nas01",
+      "label": "10 Gbps",
+      "status": "up"
+    }
+  ]
+}
