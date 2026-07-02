@@ -1,5 +1,4 @@
-{
-"nodes": [
+[
   {
     "id": "internet",
     "title": "Internet",
@@ -55,4 +54,3 @@
     "color": "green"
   }
 ]
-}
